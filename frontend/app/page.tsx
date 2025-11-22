@@ -1,3 +1,4 @@
+import { CityBackground } from "@/components/Background";
 import { Search } from "@/components/SearchBar";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
             <h1 className="text-4xl font-bold text-center ">
                 Explore any city in real time
             </h1>
+            <CityBackground />
             <p className="text-center text-muted-foreground mt-2">
                 Weather • Currency • Events • Flights
             </p>
